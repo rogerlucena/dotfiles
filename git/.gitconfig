@@ -1,6 +1,6 @@
 [user]
-	name = Developer
-	email = developer@vtex.com
+	name = DeveloperName
+	email = developer@mail.com
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = /usr/bin/vim
@@ -29,8 +29,4 @@
 	preparepr = "!f() { BRANCH=$(git rev-parse --abbrev-ref HEAD);git checkout master; git fetch && git rebase; git checkout \"$BRANCH\";git rebase master; }; f"
 	updatepr = "!f() { BRANCH=$(git rev-parse --abbrev-ref HEAD);git push --set-upstream origin -f \"$BRANCH\":\"$BRANCH\";}; f"
 	openpr = "!f() { ORG=$(git remote get-url origin | cut -d ":" -f2 | cut -d "/" -f1);BRANCH=$(git rev-parse --abbrev-ref HEAD); REPO=$(git ls-remote --get-url |cut -d / -f2) ;git push --set-upstream origin -f \"$BRANCH\":\"$BRANCH\"; echo -e \"https://github.com/$ORG/$REPO/compare/$BRANCH?expand=1\";}; f"
- 
-[url "git@github.com:vtex-apps/"]
-    insteadOf = va:
-[url "git@github.com:vtex/"]
-    insteadOf = v:
+

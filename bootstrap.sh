@@ -5,12 +5,12 @@ cd "$DIR"
 
 . scripts/functions.sh
 
-if grep Developer git/.gitconfig; then
+if grep DeveloperName git/.gitconfig; then
     error "Please change your name in git/.gitconfig"
     exit 1
 fi
 
-if grep developer@vtex.com git/.gitconfig; then
+if grep developer@mail.com git/.gitconfig; then
     error "Please change your email in git/.gitconfig"
     exit 1
 fi

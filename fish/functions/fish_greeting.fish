@@ -1,3 +1,3 @@
 function fish_greeting
-    echo 'Welcome to VTEX!'
+    echo 'Welcome!'
 end

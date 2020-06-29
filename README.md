@@ -22,7 +22,7 @@ That's it.
 
 1. Download or clone this repo into `~/dotfiles` (e.g. run the following command)
 
-`curl -sSL https://github.com/vtex/dotfiles/archive/master.zip > dotfiles.zip && unzip dotfiles.zip && mv dotfiles-master dotfiles && rm dotfiles.zip`
+`curl -sSL https://github.com/rogerlucena/dotfiles/archive/master.zip > dotfiles.zip && unzip dotfiles.zip && mv dotfiles-master dotfiles && rm dotfiles.zip`
 
 2. Edit the file `git/.gitconfig` with your information (name and email)
 3. Edit the file `macos/setup.sh` with your desired COMPUTER_NAME
